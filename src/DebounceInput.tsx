@@ -5,7 +5,7 @@ import { styles } from './DebounceInputStyle';
 
 
 const DebounceInput: React.FC<DebounceInputProps> = (props) => {
-  const { onValueChange, delayTime = 1000, minCharacterDifference = 1, styleProps, ...textInputProps } = props;
+  const { onValueChange = () => {}, delayTime = 1000, minCharacterDifference = 1, styleProps, ...textInputProps } = props;
   const [value, setValue] = useState('');
   const [debouncedValue, setDebouncedValue] = useState('');
 

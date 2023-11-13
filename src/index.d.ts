@@ -1,1 +1,1 @@
-declare module 'debounce-input-react-native';
+declare module 'debounced-input-react-native';

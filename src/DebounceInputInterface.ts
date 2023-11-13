@@ -1,7 +1,7 @@
-import { StyleProp, TextInputProps, TextStyle, ViewStyle } from "react-native";
+import { StyleProp, TextInputProps, TextStyle } from "react-native";
 
 interface DebounceInputProps extends TextInputProps {
-  onValueChange: any
+  onValueChange: () => {}
   delayTime?: number
   minCharacterDifference?: number
   styleProps?: StyleProp<TextStyle>
