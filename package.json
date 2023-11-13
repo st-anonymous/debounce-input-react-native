@@ -17,7 +17,7 @@
     "react native element"
   ],
   "author": "Suryakanta Indrajit",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/st-anonymous/debounced-input-react-native/issues"
   },
