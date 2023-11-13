@@ -36,7 +36,7 @@ const YourComponent = () => {
   return (
     <DebounceInput
       placeholder="Type something..."
-      onValueChange={OnValueChange}      // Your callback function to handle the debounced value
+      onValueChange={OnValueChange}      // Optional: Your callback function to handle the debounced value
       delayTime={500}                   // Optional: Set custom debounce delay in milliseconds (default: 300)
       minCharacterDifference={3}        // Optional: Set minimum character difference to trigger debounce (default: 1)
       styleProps={{                     // Optional: Pass style properties for customization
@@ -51,7 +51,7 @@ export default YourComponent;
 
 ## Props
 
-- **onValueChange**: *(required)* A callback function that will be called with the debounced value.
+- **onValueChange**: *(optional)* A callback function that will be called with the debounced value.
 - **delayTime**: *(optional)* The delay (in milliseconds) before triggering the debounced action. Default: 1000.
 - **minCharacterDifference**: *(optional)* The minimum character difference to trigger the debounced action. Default: 1.
 - **styleProps**: *(optional)* Style properties for customizing the appearance of the `DebounceInput`.
