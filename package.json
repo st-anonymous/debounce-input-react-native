@@ -1,0 +1,29 @@
+{
+  "name": "debounce-input-react-native",
+  "version": "1.0.0",
+  "description": "react native input customised with debouncing",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-anonymous/debounce-input-react-native.git"
+  },
+  "keywords": [
+    "debounce input",
+    "react native"
+  ],
+  "author": "Suryakanta Indrajit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st-anonymous/debounce-input-react-native/issues"
+  },
+  "homepage": "https://github.com/st-anonymous/debounce-input-react-native#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-dom": "*"
+  },
+  "types": "./src/index.d.ts"
+}
